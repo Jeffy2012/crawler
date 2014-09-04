@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crawler</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+    <style>
+        .update {
+            display: none;
+            color: transparent;
+        }
+
+        .form-inline {
+            margin-bottom: 20px;
+        }
+    </style>
+
+</head>
+<body>
+<!--<button class="btn btn-primary update">更新</button>
+<button class="btn btn-primary total">合计</button>-->
+<div style="padding: 20px">
+    <div class="info"></div>
+    <div class="form-inline" role="form" style="margin-bottom: 20px;">
+        <div class="form-group">
+            <label for="huaBid-first-page" class="sr-only">第一页</label>
+            <input id="huaBid-first-page" class="form-control" type="text" placeholder="第一页">
+        </div>
+        <div class="form-group">
+            <label for="huaBid-last-page" class="sr-only">最后一页</label>
+            <input id="huaBid-last-page" class="form-control" type="text" placeholder="最后一页">
+        </div>
+        <button id="fetch-HuaBid" class="btn btn-primary">获取HuaBid</button>
+    </div>
+    <div class="form-inline" role="form">
+        <div class="form-group">
+            <label for="huaBid-first-day" class="sr-only">第一天</label>
+            <input id="huaBid-first-day" class="form-control" type="text" placeholder="第一天">
+        </div>
+        <div class="form-group">
+            <label for="huaBid-last-day" class="sr-only">最后一天</label>
+            <input id="huaBid-last-day" class="form-control" type="text" placeholder="最后一天">
+        </div>
+        <button id="create-HuaBid" class="btn btn-primary">生成HuaBid</button>
+    </div>
+    <div class="form-inline" role="form" style="margin-bottom: 20px;">
+        <div class="form-group">
+            <label for="first-page" class="sr-only">第一页</label>
+            <input id="first-page" class="form-control" type="text" placeholder="第一页">
+        </div>
+        <div class="form-group">
+            <label for="last-page" class="sr-only">最后一页</label>
+            <input id="last-page" class="form-control" type="text" placeholder="最后一页">
+        </div>
+        <button id="fetch-YiXu" class="btn btn-primary">获取YiXu</button>
+    </div>
+    <div class="form-inline" role="form" style="margin-bottom: 20px;">
+        <div class="form-group">
+            <label for="first-one" class="sr-only">第一个</label>
+            <input id="first-one" class="form-control" type="text" placeholder="第一个">
+        </div>
+        <div class="form-group">
+            <label for="last-one" class="sr-only">最后一个</label>
+            <input id="last-one" class="form-control" type="text" placeholder="最后一个">
+        </div>
+        <button id="create-YiXu" class="btn btn-primary">生成YiXu</button>
+    </div>
+    <div class="form-inline" role="form">
+        <div class="form-group">
+            <label for="first-day" class="sr-only">第一天</label>
+            <input id="first-day" class="form-control" type="text" placeholder="第一天">
+        </div>
+        <div class="form-group">
+            <label for="last-day" class="sr-only">最后一天</label>
+            <input id="last-day" class="form-control" type="text" placeholder="最后一天">
+        </div>
+        <button id="fetch-YaQu" class="btn btn-primary">获取YaQu</button>
+        <button id="create-YaQu" class="btn btn-primary">生成YaQu</button>
+    </div>
+</div>
+<script src="javascripts/store.js"></script>
+<script src="javascripts/underscore.js"></script>
+<script src="javascripts/idbstore.js"></script>
+<script src="javascripts/jquery.js"></script>
+<script src="javascripts/main.js"></script>
+</body>
+</html>

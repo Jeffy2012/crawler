@@ -1,0 +1,14 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "crawler for zhaoonline",
+  "main": "index.html",
+  "author": "Jeffy",
+  "devDependencies": {
+    "request": "~2.31.0",
+    "q": "~1.0.0",
+    "underscore": "~1.5.2",
+    "jsdom": "~0.8.10",
+    "node-xlsx": "~0.4.0"
+  }
+}
